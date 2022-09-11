@@ -1,5 +1,7 @@
 .container.testimonials__container {
     width: 40%;
+    padding-bottom: 4rem;
+    user-select: none;
 }
 
 .client__avatar {
@@ -48,6 +50,8 @@ MEDIA QUERIES (SMALL DEVICES)
         width: var(--container-width-sm);
     }
 }
+
+
 
 
 

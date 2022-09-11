@@ -4,10 +4,11 @@ import './testimonials.css';
 import AVTR1 from '../../assets/avatar.jpg';
 
 // import Swiper core and required modules
-import { Pagination } from 'swiper';
+import { Pagination, Autoplay } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
+import "swiper/css";
 import 'swiper/css/pagination';
 
 
@@ -42,16 +43,19 @@ const Testimonials = () => {
 
       <Swiper className='container testimonials__container'
        // install Swiper modules
-       modules={[Pagination]}
-       spaceBetween={40}
-       slidesPerView={1}
+       modules={[Pagination, Autoplay]}
+       spaceBetween={40}  
+       autoplay={{
+        delay: 2500,
+        disableOnInteraction: false,
+      }}
        pagination={{ clickable: true }}>
         {
           data.map(({avatar, name, review,}, index) => {
             return (                      
               <SwiperSlide key={index} className='testimonial'>
                   <div className='client__avatar'>
-                    <img src={avatar}/>
+                    <img src={avatar} alt="Avatar"/>
                   </div>
                     <h5 className='client__name'>{name}</h5>
                     <small className='client__review'>{review}</small>

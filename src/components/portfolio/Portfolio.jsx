@@ -13,7 +13,7 @@ const data = [
     image: IMG1,
     title: 'Crypto Currency DashBoard & Financial Visualization',
     github: 'http://github.com',
-    demon: 'http://dribble.com'
+    demo: 'http://dribble.com'
   },
   
   {
@@ -21,7 +21,7 @@ const data = [
     image: IMG2,
     title: 'Crypto Currency DashBoard & Financial Visualization',
     github: 'http://github.com',
-    demon: 'http://dribble.com'
+    demo: 'http://dribble.com'
   },
   
   {
@@ -29,7 +29,7 @@ const data = [
     image: IMG3,
     title: 'Crypto Currency DashBoard & Financial Visualization',
     github: 'http://github.com',
-    demon: 'http://dribble.com'
+    demo: 'http://dribble.com'
   },
   
   {
@@ -37,7 +37,7 @@ const data = [
     image: IMG4,
     title: 'Crypto Currency DashBoard & Financial Visualization',
     github: 'http://github.com',
-    demon: 'http://dribble.com'
+    demo: 'http://dribble.com'
   },
   
   {
@@ -45,7 +45,7 @@ const data = [
     image: IMG5,
     title: 'Crypto Currency DashBoard & Financial Visualization',
     github: 'http://github.com',
-    demon: 'http://dribble.com'
+    demo: 'http://dribble.com'
   },
   
   {
@@ -53,7 +53,7 @@ const data = [
     image: IMG6,
     title: 'Crypto Currency DashBoard & Financial Visualization',
     github: 'http://github.com',
-    demon: 'http://dribble.com'
+    demo: 'http://dribble.com'
   }
 ];
 
@@ -66,16 +66,15 @@ const Portfolio = () => {
       <div className='container portfolio__container'>
         {
           data.map(({id, image, title, github, demo}) => {
-            return (
-                      
+            return (                      
             <article key={id} className='portfolio__item'>
                 <div className='portfolio__item-image'>
                   <img src={image} alt={title} />
                 </div>
                 <h3>{title}</h3>
                 <div className='portfolio__item-cta'>              
-                  <a href={github} className='btn' target='_blank'>Github</a>
-                  <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                  <a href={github} className='btn' target='_blank'  rel="noopener">Github</a>
+                  <a href={demo} className='btn btn-primary' target='_blank'  rel="noopener">Live Demo</a>
                 </div>
             </article>
             )

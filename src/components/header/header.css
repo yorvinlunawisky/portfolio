@@ -63,9 +63,9 @@ HEADER SOCIALS
 /*===========================================
 MEDIA QUERIES (MEDIUM DEVICES)
 ===========================================*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
     header {
-        height: 100vh;
+        height: 68vh;
     }
 
     .header__socials,
