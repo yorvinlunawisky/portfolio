@@ -1,9 +1,9 @@
 import React from 'react';
 import './testimonials.css';
 
-import JUNIOR from '../../assets/gleiverson.png';
+import JUNIOR from '../../assets/junior.png';
 import JULIO from '../../assets/julio.png';
-import GLEIVERSON from '../../assets/avatar.jpg';
+import GLEIVERSON from '../../assets/gleiverson.png';
 
 // import Swiper core and required modules
 import { Pagination, Autoplay } from 'swiper';
