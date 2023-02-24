@@ -17,27 +17,23 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service___list-icon'/>
-              <p>JavaScript, HTML, CSS, Angular, JSON, Rest API's, GitHub.</p>
+              <p>App Development: creating powerful and scalable web applications with Angular.</p>
             </li>
             <li>
               <BiCheck className='service___list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Consulting: providing expert advice and best practices for Angular projects.</p>
             </li>
             <li>
               <BiCheck className='service___list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Maintenance and support: ensuring the smooth operation of Angular applications.</p>
             </li>
             <li>
               <BiCheck className='service___list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Angular integration: integrating Angular with other technologies to enhance functionality.</p>
             </li>
             <li>
               <BiCheck className='service___list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <BiCheck className='service___list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Angular migration: helping businesses transition to Angular for better results</p>
             </li>
           </ul>
         </article>
@@ -51,27 +47,23 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service___list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>UI/UX design: creating intuitive and visually appealing user interfaces and experiences.</p>
             </li>
             <li>
               <BiCheck className='service___list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Prototyping: designing interactive prototypes using Figma or Adobe XD to validate design concepts.</p>
             </li>
             <li>
               <BiCheck className='service___list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Vector design: creating scalable vector graphics for logos, icons, and other graphics using Illustrator.</p>
             </li>
             <li>
               <BiCheck className='service___list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Image editing: retouching and enhancing images using Photoshop to achieve the desired look and feel.</p>
             </li>
             <li>
               <BiCheck className='service___list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <BiCheck className='service___list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>3D design: creating 3D assets for websites, apps, and games using Blend</p>
             </li>
           </ul>
         </article>
@@ -85,27 +77,23 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service___list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>3D modeling: creating high-quality and accurate 3D models of various objects and characters using Blender.</p>
             </li>
             <li>
               <BiCheck className='service___list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Texturing: designing and applying textures to 3D models using Substance Painter and Marvelous Designer to achieve realistic and visually appealing surfaces.</p>
             </li>
             <li>
               <BiCheck className='service___list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Lighting: setting up lighting scenes to create stunning visual effects and mood for 3D assets.</p>
             </li>
             <li>
               <BiCheck className='service___list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>3D animation: creating dynamic and engaging 3D animations for websites, apps, and games..</p>
             </li>
             <li>
               <BiCheck className='service___list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <BiCheck className='service___list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Asset creation: developing 3D assets and content for various platforms, including video games and virtual reality experiences.</p>
             </li>
           </ul>
         </article>
