@@ -21,19 +21,14 @@ const data = [
     review: 'The Angular app Yorvin developed for us was outstanding. It was visually stunning, easy to use, and performed flawlessly.'
   },
   {
-    avatar: AVTR1,
+    avatar: JUNIOR,
     name: 'Junior Zapata',
     review: 'Thanks to Yorvin\'s Angular expertise, our web app exceeded our expectations. Their attention to detail and user experience design was exceptional.'
   },
   {
-    avatar: JUNIOR,
-    name: 'Pedro Ureña',
-    review: 'I was blown away by the Angular web app that this guy developed for our business. Their skills in Angular and UI/UX design created a seamless user experience and boosted engagement.'
-  },
-  {
     avatar: GLEIVERSON,
-    name: 'Tina Snow',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat maiores totam doloremque facilis animi aliquid accusamus sed deleniti. Soluta architecto voluptates odit omnis voluptas, aperiam asperiores molestias dolorem, facere, nam incidunt fugit! Reiciendis modi nisi deserunt, perspiciatis ipsam facilis deleniti!'
+    name: 'Gleiverson Oller',
+    review: 'I was blown away by the Angular web app that this guy developed for our business. Their skills in Angular and UI/UX design created a seamless user experience and boosted engagement.'
   }
 ];
 
