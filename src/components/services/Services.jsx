@@ -81,7 +81,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service___list-icon'/>
-              <p>Texturing: designing and applying textures to 3D models using Substance Painter and Marvelous Designer to achieve realistic and visually appealing surfaces.</p>
+              <p>Texturing: designing and applying textures to 3D models using Substance Painter and Marvelous Designer.</p>
             </li>
             <li>
               <BiCheck className='service___list-icon'/>
@@ -93,7 +93,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service___list-icon'/>
-              <p>Asset creation: developing 3D assets and content for various platforms, including video games and virtual reality experiences.</p>
+              <p>Asset creation: developing 3D assets and content for various platforms, including video games.</p>
             </li>
           </ul>
         </article>
