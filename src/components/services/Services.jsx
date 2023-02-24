@@ -33,7 +33,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service___list-icon'/>
-              <p>Angular migration: helping businesses transition to Angular for better results</p>
+              <p>Angular migration: helping businesses transition to Angular for better results.</p>
             </li>
           </ul>
         </article>
@@ -63,7 +63,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service___list-icon'/>
-              <p>3D design: creating 3D assets for websites, apps, and games using Blend</p>
+              <p>3D design: creating 3D assets for websites, apps, and games using Blender.</p>
             </li>
           </ul>
         </article>
@@ -77,7 +77,7 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service___list-icon'/>
-              <p>3D modeling: creating high-quality and accurate 3D models of various objects and characters using Blender.</p>
+              <p>3D modeling: creating high-quality and accurate 3D models using Blender.</p>
             </li>
             <li>
               <BiCheck className='service___list-icon'/>
