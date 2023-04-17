@@ -24,7 +24,7 @@ const About = () => {
             <article className='about__card'>
                 <FaAward className='about__icon'/>
                   <h5>Experience</h5>
-                <small>2+ Years Working</small>
+                <small>3+ Years Working</small>
             </article>
 
             <article className='about__card'>
@@ -41,7 +41,7 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ullam iure officia? Sint velit aliquam nostrum iure animi aspernatur assumenda perspiciatis iusto veniam laudantium debitis pariatur nam, ad officiis laborum.
+          As an accomplished Front-end Developer, I bring to the table an extensive skill set that is grounded in creating highly interactive web applications. My expertise spans a range of technical tools and platforms, including JavaScript, HTML, CSS, Angular, JSON, Rest API's, GitHub, and Bootstrap. 
           </p>
 
           <a href="#contact" className='btn btn-primary'> Let's Talk</a>

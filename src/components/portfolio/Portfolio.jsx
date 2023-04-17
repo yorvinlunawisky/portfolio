@@ -1,8 +1,8 @@
 import React from 'react';
 import './portfolio.css';
-import IMG1 from '../../assets/portfolio1.webp';
-import IMG2 from '../../assets/portfolio2.webp';
-import IMG3 from '../../assets/portfolio3.webp';
+import IMG1 from '../../assets/portfolio1.png';
+import IMG2 from '../../assets/portfolio2.png';
+import IMG3 from '../../assets/portfolio3.png';
 import IMG4 from '../../assets/portfolio4.webp';
 import IMG5 from '../../assets/portfolio5.webp';
 import IMG6 from '../../assets/portfolio6.webp';
@@ -11,15 +11,15 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Crypto Currency DashBoard & Financial Visualization',
-    github: 'http://github.com',
-    demo: 'http://dribble.com'
+    title: 'Sistema Electrónico de Garantías Mobiliarias',
+    github: 'https://github.com/yorvinlunawisky/segm-front-end',
+    demo: 'https://app.segm.gob.do/'
   },
   
   {
     id: 2,
     image: IMG2,
-    title: 'Crypto Currency DashBoard & Financial Visualization',
+    title: 'Fando: Sport Pools Game',
     github: 'http://github.com',
     demo: 'http://dribble.com'
   },
@@ -27,7 +27,7 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: 'Crypto Currency DashBoard & Financial Visualization',
+    title: 'Semana Mipymes',
     github: 'http://github.com',
     demo: 'http://dribble.com'
   },
