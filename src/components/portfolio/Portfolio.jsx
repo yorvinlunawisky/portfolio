@@ -3,7 +3,7 @@ import './portfolio.css';
 import IMG1 from '../../assets/portfolio1.png';
 import IMG2 from '../../assets/portfolio2.png';
 import IMG3 from '../../assets/portfolio3.png';
-import IMG4 from '../../assets/portfolio4.webp';
+import IMG4 from '../../assets/portfolio4.png';
 import IMG5 from '../../assets/portfolio5.webp';
 import IMG6 from '../../assets/portfolio6.webp';
 
@@ -12,31 +12,31 @@ const data = [
     id: 1,
     image: IMG1,
     title: 'Sistema Electrónico de Garantías Mobiliarias',
-    github: 'https://github.com/yorvinlunawisky/segm-front-end',
+    github: 'https://github.com/yorvinlunawisky',
     demo: 'https://app.segm.gob.do/'
   },
   
   {
     id: 2,
-    image: IMG2,
-    title: 'Fando: Sport Pools Game',
-    github: 'http://github.com',
-    demo: 'http://dribble.com'
+    image: IMG4,
+    title: 'Directorio Creativo',
+    github: 'https://github.com/yorvinlunawisky',
+    demo: 'https://directoriocreativo.gob.do/#/'
   },
   
   {
     id: 3,
     image: IMG3,
     title: 'Semana Mipymes',
-    github: 'http://github.com',
-    demo: 'http://dribble.com'
+    github: 'https://github.com/yorvinlunawisky',
+    demo: 'https://app.semanamipymes.do/'
   },
   
   {
     id: 4,
-    image: IMG4,
-    title: 'Crypto Currency DashBoard & Financial Visualization',
-    github: 'http://github.com',
+    image: IMG2,
+    title: 'Fando: Sport Pools Game',
+    github: 'https://github.com/yorvinlunawisky',
     demo: 'http://dribble.com'
   },
   
@@ -44,7 +44,7 @@ const data = [
     id: 5,
     image: IMG5,
     title: 'Crypto Currency DashBoard & Financial Visualization',
-    github: 'http://github.com',
+    github: 'https://github.com/yorvinlunawisky',
     demo: 'http://dribble.com'
   },
   
@@ -52,7 +52,7 @@ const data = [
     id: 6,
     image: IMG6,
     title: 'Crypto Currency DashBoard & Financial Visualization',
-    github: 'http://github.com',
+    github: 'https://github.com/yorvinlunawisky',
     demo: 'http://dribble.com'
   }
 ];
